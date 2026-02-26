@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TuRumbo</string>
+    <string name="Bienvenida">TuRumbo</string>
+    <string name="autor">Nicolas Obando</string>
+    <string name="description_inicio">Inicia una nueva aventura con TuRumbo y descubre una nueva forma de ver el mundo</string>
+    <string name="description_login">La aventura está por iniciar, por favor inicia sesión</string>
+    <string name="txt_submit_login">Ingresar</string>
+    <string name="tv_recuperarContraseña">Recupera Tu Contraseña</string>
+    <string name="tv_login_google">Ingresa con Google</string>
+    <string name="tv_noCuenta_login">No tienes cuenta?</string>
+    <string name="tv_regsitrar_login">Registrate</string>
+    <string name="bt_comienzaInicio">Comienza</string>
+    <string name="tv_registrateInicio">Registrate</string>
+</resources>

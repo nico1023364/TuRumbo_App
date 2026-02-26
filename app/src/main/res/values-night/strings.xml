@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_noCuenta_login">No tienes cuenta?</string>
+    <string name="tv_regsitrar_login">Registrate</string>
+    <string name="bt_comienzaInicio">Comienza</string>
+    <string name="tv_registrateInicio">Registrate</string>
+</resources>
