@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/gris"
     tools:context=".Activities.LoginActivity">
 
-    <ImageView
-        android:id="@+id/logo_login"
-        android:layout_width="88dp"
-        android:layout_height="120dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="36dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo_app" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logo_login"
+            android:layout_width="86dp"
+            android:layout_height="114dp"
+            app:srcCompat="@drawable/logo_app" />
 
     <TextView
         android:id="@+id/nombreApp_Login"
-        android:layout_width="204dp"
+        android:layout_width="wrap_content"
         android:layout_height="46dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="76dp"
         android:fontFamily="@font/tiro_devanagari_hindi"
         android:text="@string/app_name"
         android:textAlignment="textStart"
         android:textColor="@color/rojo"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/logo_login"
-        app:layout_constraintTop_toTopOf="parent" />
+        />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/description_login"
@@ -48,30 +47,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo_login" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp">
+        <ImageView
+            android:id="@+id/icons_login"
+            android:layout_width="76dp"
+            android:layout_height="123dp"
+            android:layout_marginEnd="20sp"
+            app:srcCompat="@drawable/icons_login" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="fill_vertical"
+            android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/input_password"
-        android:layout_width="216dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/style_input"
-        android:paddingStart="15dp"
-        android:textColor="@color/black"
-        android:paddingEnd="15dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/icons_login"
-        app:layout_constraintTop_toBottomOf="@+id/input_user" />
 
     <EditText
         android:id="@+id/input_user"
         android:layout_width="215dp"
         android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginBottom="20sp"
+
         android:background="@drawable/style_input"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
@@ -80,21 +80,21 @@
         android:inputType="text"
         android:textColor="@color/black"
         android:textColorHint="@color/hint_color"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/icons_login"
-        app:layout_constraintTop_toBottomOf="@+id/description_login" />
+      />
+            <EditText
+                android:id="@+id/input_password"
+                android:layout_width="216dp"
+                android:layout_height="48dp"
+                android:background="@drawable/style_input"
+                android:paddingStart="15dp"
+                android:textColor="@color/black"
+                android:paddingEnd="15dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                />
+        </LinearLayout>
 
-    <ImageView
-        android:id="@+id/icons_login"
-        android:layout_width="76dp"
-        android:layout_height="123dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/description_login"
-        app:srcCompat="@drawable/icons_login" />
-
+    </LinearLayout>
     <Button
         android:id="@+id/button_login"
         android:layout_width="217dp"
@@ -121,20 +121,14 @@
         android:text="@string/tv_recuperarContraseña"
         android:textColor="@color/black"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_login" />
+        android:layout_marginBottom="50sp" />
 
     <LinearLayout
         android:layout_width="286dp"
         android:layout_height="46dp"
         android:background="@drawable/button_google_login"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_recuperarContraseña_login">
+       >
 
         <ImageView
             android:id="@+id/logo_google"
@@ -157,33 +151,36 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20sp"
+        android:gravity="center">
+
+
     <TextView
         android:id="@+id/tv_noCuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="36dp"
         android:fontFamily="@font/tiro_devanagari_hindi"
         android:text="@string/tv_noCuenta_login"
         android:textColor="@color/black"
+        android:layout_marginEnd="10sp"
         android:textSize="15dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/tv_registrate_login"
-        app:layout_constraintHorizontal_bias="0.891"
-        app:layout_constraintStart_toStartOf="parent" />
+         />
 
     <TextView
         android:id="@+id/tv_registrate_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="104dp"
-        android:layout_marginBottom="36dp"
         android:fontFamily="@font/tiro_devanagari_hindi"
         android:text="@string/tv_regsitrar_login"
         android:textColor="@color/rojo"
         android:textSize="15dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+       />
+    </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
