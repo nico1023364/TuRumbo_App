@@ -40,6 +40,7 @@
         android:layout_height="45dp"
         android:layout_marginTop="30dp"
         android:text="@string/tv_title_register"
+        android:fontFamily="@font/tiro_devanagari_hindi"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="25sp"
@@ -68,6 +69,8 @@
                 android:layout_marginBottom="15sp"
                 android:background="@drawable/style_input"
                 android:paddingStart="15dp"
+                android:fontFamily="@font/tiro_devanagari_hindi"
+
                 android:paddingEnd="15dp"
                 android:ems="10"
                 android:hint="@string/hint_name_input"
@@ -79,6 +82,8 @@
                 android:id="@+id/input_lastName"
                 android:layout_width="280dp"
                 android:layout_height="48dp"
+                android:fontFamily="@font/tiro_devanagari_hindi"
+
                 android:layout_marginBottom="15sp"
                 android:background="@drawable/style_input"
                 android:paddingStart="15dp"
@@ -97,6 +102,8 @@
                 android:layout_marginBottom="15sp"
                 android:background="@drawable/style_input"
                 android:paddingStart="15dp"
+                android:fontFamily="@font/tiro_devanagari_hindi"
+
                 android:paddingEnd="15dp"
                 android:ems="10"
                 android:hint="@string/hint_email_register"
@@ -107,6 +114,8 @@
             <EditText
                 android:id="@+id/input_password_register"
                 android:layout_width="280dp"
+                android:fontFamily="@font/tiro_devanagari_hindi"
+
                 android:layout_height="48dp"
                 android:layout_marginBottom="15sp"
                 android:background="@drawable/style_input"
@@ -123,12 +132,26 @@
                 android:layout_height="48dp"
                 android:background="@drawable/style_input"
                 android:paddingStart="15dp"
+                android:fontFamily="@font/tiro_devanagari_hindi"
+
                 android:hint="@string/hint_confirm_password_input"
                 android:textColor="@color/black"
                 android:paddingEnd="15dp"
                 android:ems="10"
                 android:inputType="textPassword"
                 />
+
+            <CheckBox
+                android:id="@+id/checkBox_terminos_register"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tiro_devanagari_hindi"
+
+                android:paddingStart="0dp"
+                android:text="@string/txt_checkox_terminos_register" />
+
+
         </LinearLayout>
 
     </LinearLayout>
