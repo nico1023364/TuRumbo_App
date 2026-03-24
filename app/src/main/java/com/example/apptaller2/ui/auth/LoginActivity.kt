@@ -1,4 +1,4 @@
-package com.example.apptaller2.Activities
+package com.example.apptaller2.ui.auth
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,8 +6,6 @@ import android.os.Handler
 import android.os.Looper
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.apptaller2.R
 
 class LoginActivity : AppCompatActivity() {

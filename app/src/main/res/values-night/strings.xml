@@ -14,4 +14,10 @@
     <string name="tv_tiene_cuenta">¿Ya tienes cuenta?</string>
     <string name="tv_inciarSesion_register">Inicia sesión</string>
     <string name="txt_checkox_terminos_register">Acepto los términos y condiciones</string>
+    <string name="tv_mi_tienda">Mi tienda</string>
+    <string name="inicio">Inicio</string>
+    <string name="catalogo">Catalogo</string>
+    <string name="Carrito">carrito</string>
+    <string name="Perfil">Perfil</string>
+    <string name="Categoria">Categoria</string>
 </resources>
