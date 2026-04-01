@@ -28,5 +28,13 @@
     <string name="catalogo">Catalogo</string>
     <string name="Carrito">Carrito</string>
     <string name="Perfil">Perfil</string>
-    <string name="Categoria">Categoria</string>
+    <string name="Catalogo">Catalogo</string>
+    <string name="navigation_drawer_open">Manu Abierto</string>
+    <string name="navigation_drawer_close">Menu Cerrado</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="gestion_admin">Gestion Admin</string>
+    <string name="usuarios">Usuarios</string>
+    <string name="productos_destacados">Productos Destacados</string>
+    <string name="imagen_del_producto">Imagen del Producto</string>
+    <string name="agregar_al_carrito">Agregar al carrito</string>
 </resources>
