@@ -13,9 +13,10 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_login)
+        /*
         Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this, RegisterActivity::class.java))
             finish()
-        },3000)
+        },3000)*/
     }
 }

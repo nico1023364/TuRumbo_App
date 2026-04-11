@@ -77,7 +77,6 @@
                 android:background="@drawable/style_input"
                 android:paddingStart="15dp"
                 android:fontFamily="@font/tiro_devanagari_hindi"
-
                 android:paddingEnd="15dp"
                 android:ems="10"
                 android:hint="@string/hint_name_input"

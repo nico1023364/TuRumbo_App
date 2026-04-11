@@ -28,4 +28,6 @@
     <string name="productos_destacados">Productos Destacados</string>
     <string name="imagen_del_producto">Imagen del Producto</string>
     <string name="agregar_al_carrito">Agregar al carrito</string>
+    <string name="tv_editar_perfil">Editar Perfil</string>
+    <string name="tv_actualizar">Actualizar</string>
 </resources>
