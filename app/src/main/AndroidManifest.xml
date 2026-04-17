@@ -15,33 +15,40 @@
 
         <activity
             android:name=".ui.inicio.SplashActivity"
-            android:exported="false">
+            android:exported="true">
 
 
 
         </activity>
         <activity
-            android:name=".ui.auth.RegisterActivity"
+            android:name=".ui.auth.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".ui.MainActivity"
             android:exported="false" >
 
 
         </activity>
-        <activity
-            android:name=".ui.auth.LoginActivity"
-            android:exported="false" />
+
 
         <activity
             android:name=".ui.inicio.InicioActivity"
-            android:exported="false" />
+            android:exported="false" >
+
+
+        </activity>
 
 
         <meta-data
