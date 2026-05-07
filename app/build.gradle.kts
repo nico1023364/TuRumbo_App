@@ -56,5 +56,7 @@ dependencies {
     implementation(libs.supabase.auth)
     implementation(libs.ktor.client.android)
     implementation(libs.kotlinx.serialization.json)
+    implementation(libs.coil)
+    implementation(libs.supabase.storage)
 }
 

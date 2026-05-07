@@ -6,9 +6,11 @@
 
     <item android:id="@+id/nav_admin"
         android:title="@string/gestion_admin"
-        android:icon="@android:drawable/ic_menu_manage"/>
+        android:icon="@android:drawable/ic_menu_manage"
+        android:visible="false"/>
 
     <item android:id="@+id/nav_usuarios"
         android:title="@string/usuarios"
-        android:icon="@android:drawable/ic_menu_myplaces"/>
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:visible="false"/>
 </menu>

@@ -40,4 +40,14 @@
     <string name="tv_editar_perfil">Editar Perfil</string>
     <string name="tv_actualizar">Actualizar</string>
     <string name="ingresar_con_huella">Ingresar con huella</string>
+    <string name="editar_perfil">Editar perfil</string>
+    <string name="editar_perfil_titulo">Editar Perfil</string>
+    <string name="cambiar_foto">Cambiar foto</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="correo">Correo</string>
+    <string name="nueva_contrase_a_opcional">Nueva Contraseña (Opcional)</string>
+    <string name="repetir_nueva_contrase_a">Repetir Nueva Contraseña</string>
+    <string name="guardar_cambios">Guardar Cambios</string>
+    <string name="foto_de_perfil">Foto de Perfil</string>
 </resources>
